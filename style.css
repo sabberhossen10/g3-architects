@@ -19,7 +19,6 @@ nav {
     max-width: 1250px;
     height: 100px;
     margin: 0 auto;
-    width: 100%;
     align-items: center;
 }
 
@@ -234,8 +233,8 @@ ul li {
 }
 
 .skill:hover {
-    width: 260px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     transform: rotate(360deg);
     background-color: #FF900E;
 }
@@ -251,13 +250,145 @@ ul li {
     font-size: 45px;
     margin-bottom: 24px;
 }
-.our-img{
+
+.our-img {
     margin-top: 50px;
     display: grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 100px;
+    margin-bottom: 130px;
 }
-.our-img div img{
+
+.our-img div img {
     filter: grayscale(1);
 }
+
+/* what i do */
+.what-i-do {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.what-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.uu {
+    text-align: center;
+
+}
+
+.sky {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 90px;
+}
+.what-skill{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding: 50px;
+}
+.what-skill img {
+    margin-bottom: 20px;
+}
+
 /* end main  */
+
+
+
+/* footer */
+.footer {
+    background-color: #FFF4E7;
+    padding: 40px 300px;
+    margin-bottom: 200px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* mobile decive */
+/* mobile decive */
+/* mobile decive */
+
+
+
+@media screen and (max-width:556px) {
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .g3 h3 {
+        font-size: 30px;
+        font-weight: 700px;
+    }
+
+    .Brand-tittle {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .fetures-main {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .fetures-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fetures-info {
+        width: 50%;
+    }
+
+    .love-main {
+        flex-direction: column-reverse;
+
+    }
+
+    .love-injoy-img {
+        width: 100%;
+    }
+
+    .tenyear {
+        bottom: 10px;
+        left: -10px;
+    }
+
+    .some {
+        font-size: 30px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .our-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sky{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .footer {
+        max-width: 1250px;
+        padding: 20px 0;
+    }
+}
