@@ -13,7 +13,7 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     max-width: 1250px;
@@ -87,7 +87,7 @@ ul li {
 
 
 /* start main  */
-.container{
+.container {
     max-width: 1250px;
     margin: 0 auto;
 }
@@ -139,7 +139,7 @@ ul li {
     display: flex;
     gap: 54px;
     margin-bottom: 100px;
-    
+
 }
 
 .love-injoy {
@@ -166,7 +166,7 @@ ul li {
 }
 
 .love-injoy-img img {
-    max-width:100%;
+    max-width: 100%;
 }
 
 .love-section {
@@ -192,7 +192,7 @@ ul li {
     left: -50px;
     z-index: 1;
     padding: 40px;
-    
+
 }
 
 .tenyear h3 {
@@ -206,33 +206,58 @@ ul li {
 }
 
 /* some facts start */
-.some{
+.some {
     font-weight: 700px;
     font-size: 45px;
 }
-.some-tittle{
+
+.some-tittle {
     margin-bottom: 24px;
 }
-.skills{
+
+.skills {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 100px;
     text-align: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
-.skill{
+
+.skill {
     border: 2px solid #FF900E;
-    margin-bottom:120px;
+    margin-bottom: 120px;
     width: 242px;
     height: 242px;
     padding: 50px 36px;
     border-radius: 5px;
     transition: width 4s, height 4s, transform 2s, background-color 2s;
 }
-.skill:hover{
-    width:260px ;
-    height:250px ;
+
+.skill:hover {
+    width: 260px;
+    height: 250px;
     transform: rotate(360deg);
     background-color: #FF900E;
+}
+
+/* our section */
+.our {
+    text-align: center;
+
+}
+
+.our-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.our-img{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap: 100px;
+}
+.our-img div img{
+    filter: grayscale(1);
 }
 /* end main  */
